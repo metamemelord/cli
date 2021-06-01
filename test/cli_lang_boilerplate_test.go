@@ -11,6 +11,7 @@ var Runtimes = []struct {
 	runtime   string
 	callInput string
 }{
+	{"rust", ""},
 	{"go", ""},
 	{"java", ""},
 	{"java8", ""},

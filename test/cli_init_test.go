@@ -2,11 +2,14 @@ package test
 
 import (
 	"fmt"
-	"github.com/fnproject/cli/testharness"
 	"testing"
+
+	"github.com/fnproject/cli/testharness"
 )
 
 var runtimes = []string{
+	"rust",
+	"rust1.52",
 	"go",
 	"java",
 	"java8",
